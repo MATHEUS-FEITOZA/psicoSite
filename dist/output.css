@@ -587,6 +587,14 @@ video {
   height: 1.5rem;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.h-auto {
+  height: auto;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -733,6 +741,11 @@ video {
   background-color: rgb(233 230 38 / var(--tw-bg-opacity));
 }
 
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\)\] {
   background-image: url();
 }
@@ -779,6 +792,34 @@ video {
 
 .bg-\[url\(\'\/src\/img\/bg\.png\'\)\] {
   background-image: url('/src/img/bg.png');
+}
+
+.bg-\[url\(\'\/src\/img\/div1\.png\'\)\] {
+  background-image: url('/src/img/div1.png');
+}
+
+.bg-\[url\(\'\/src\/img\/div1\.jpg\'\)\] {
+  background-image: url('/src/img/div1.jpg');
+}
+
+.bg-\[url\(\'\/img\/fundo\.jpg\'\)\] {
+  background-image: url('/img/fundo.jpg');
+}
+
+.bg-\[url\(\'\/img\/div\.jpg\'\)\] {
+  background-image: url('/img/div.jpg');
+}
+
+.bg-\[url\(\'\/img\/div1\.jpg\'\)\] {
+  background-image: url('/img/div1.jpg');
+}
+
+.bg-\[url\(\'\/img\/bg-\\\[url\\\(\\\'\\\/src\\\/img\\\/div1\\\.jpg\\\'\\\)\\\]\.jpg\'\)\] {
+  background-image: url('/img/bg-\[url\(\'\/src\/img\/div1\.jpg\'\)\].jpg');
+}
+
+.bg-\[url\(\'src\/img\/div1\.jpg\'\)\] {
+  background-image: url('src/img/div1.jpg');
 }
 
 .from-\[\#0F6981\]\/40 {
@@ -888,6 +929,10 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
 }
 
 .bg-center {
